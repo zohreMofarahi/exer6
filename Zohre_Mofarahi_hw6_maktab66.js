@@ -16,4 +16,3 @@ function commonCharacterCount (text1, text2) {
 }
 
 
-
