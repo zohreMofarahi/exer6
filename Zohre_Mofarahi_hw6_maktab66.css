@@ -1,0 +1,418 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Header{
+    padding: 32px 0px;
+    text-align: center;
+}
+
+.mainBox {
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+    
+        
+}
+
+
+h1 {
+    
+    font-size: 36px;
+  
+}
+ 
+.Span {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.TopAndBottomLeftBoxes {
+   width: 55%;
+    margin-left: 5%;
+    
+}
+
+img {
+    width: 100%;
+}
+
+
+.box1 {
+    width: 100%;
+    background-color:white;
+    padding-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.box1-1 {
+    text-align: left;
+    padding-left: 2%;
+    
+
+}
+
+.box1-2 {
+margin-right: 2%;
+
+}
+
+.box1-3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+
+button {
+    font-size:2vh;
+    background-color: white;
+    width: 130%;
+    height: 100%;
+    text-align: center;
+    border: rgb(185, 185, 185) 1px solid;
+    
+}
+
+button:hover {
+    background-color: rgb(211, 208, 208);
+    cursor: pointer;
+}
+
+.box1-3-2 {
+    display:inline-block ;
+    margin-right:2%;
+    
+}
+
+.samp0 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:x-large ;
+    text-align: center;
+    
+}
+
+.box2 {
+   
+    width: 100%;
+    background-color:white;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box2-1 {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.box2-1-1 {
+    margin-right: 2%;
+}
+
+.box2-1-2 {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right:2%;
+
+}
+
+.samp2 {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+.boxesRight{
+    
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-right: 60px;
+   
+
+}
+
+.RightOne
+ {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.R1 {
+
+    padding: 10px ;
+}
+
+.RightTwo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.title {
+    padding: 10px 0px;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+
+
+.Lorem {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+}
+.Lorem:hover {
+    background-color: rgb(200, 197, 197);
+}
+
+.pic1 {
+
+    width: 12%;
+    height: 12%;
+    margin: 2%;
+    
+}
+
+.tex1 {
+        margin-top:2%;
+
+    }
+    
+.Ipsum {
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+}
+.Ipsum:hover {
+    background-color: rgb(200, 197, 197);
+}
+
+.pic2 {
+    width: 12%;
+    height: 12%;
+    margin: 2%;
+}
+
+.tex2 {
+    margin-top:2%;
+}
+
+.Dorum {
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+}
+.Dorum:hover {
+    background-color: rgb(200, 197, 197);
+}
+
+.pic3 {
+    width: 12%;
+    height: 12%;
+    margin: 2%;
+
+}
+
+.tex3 {
+    margin-top:2%;
+}
+
+.Mingsum {
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+}
+.Mingsum:hover {
+    background-color: rgb(200, 197, 197);
+}
+
+.pic4 {
+    width: 12%;
+    height: 12%;
+    margin: 2%;
+}
+
+.tex4 {
+    margin-top:2%; 
+}
+
+.RightThree {
+    margin-top: 3%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 2%;
+}
+
+.tags {
+
+    background-color:#f1f1f1 ;
+    padding:3%;
+    font-size:large;
+    margin-right: 2%;
+
+}
+.spans {
+    margin-left:3%;
+    margin-top: 2%;
+
+}
+
+.sp1 {
+    background-color: black;
+    color: white;
+    padding: 0% 2%;
+   
+}
+
+
+.sp2 {
+    background-color: #f1f1f1;
+    padding: 0% 2%;
+   
+}
+
+footer {
+    width: 100%;
+    background-color:#616161 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 5%;
+    margin-top: 3%;
+}
+
+.button {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    margin-left: 1%;
+    margin-top: 2%;
+         
+}
+
+.pre {
+    padding: 5% ;
+   
+    margin-right: 3%;
+    color: rgb(184, 179, 179);
+    background-color: rgba(49, 49, 49, 0.19);
+    width: 180%;
+    height: 170%;
+    text-align: center;
+}
+
+.nex {
+    color: white;
+    width: 100%;
+    background-color: black;
+    margin-left: 90%;
+    width: 180%;
+    height: 170%;
+   
+}
+
+.link {
+    margin-top: 3%;
+    color: white;
+    margin-left:2% ;
+
+}
+
+.pre:hover {
+
+    background-color:grey ;
+    cursor: no-drop;
+    color: rgb(100, 100, 100);
+}
+
+.nex:hover {
+
+background-color:rgb(195, 186, 186);
+cursor: pointer;
+color: black;
+}
+
+/* ------------------------------------------------------------ */
+
+@media screen and (max-width: 992px) {
+    
+    .mainBox {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+       
+           
+   }
+   .TopAndBottomLeftBoxes {
+    width: 96%;
+    margin-left:10% ;
+    margin-right:10% ;
+       
+ }
+
+ button {
+    
+    font-size:2vh;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: rgb(185, 185, 185) 1px solid;
+    
+}
+.boxesRight{
+    margin-top: 5%;
+    margin-left:10% ;
+    margin-right:10% ;
+    width:96%;
+      }
+
+      
+}
+
+
+/* --------------------------------------------- */
+@media screen and (max-width: 601px) {
+.box2-1-3 {
+    display: none;
+}
+.box1-3-2 {
+    display: none;
+}
+
+
+}
+
