@@ -1,18 +1,15 @@
 
-function commonCharacterCount (text1, text2) {
-     let counter=0
-     while (text1.length && text2.length) {
-     if (text2.includes(text1.charAt(0))) {
-          counter++
-          text2=text2.replace (text1.charAt(0),"")
-          text1=text1.slice(1)
-     }
-     else 
-     {
-         text1=text1.slice(1)
-     }
-}
-     return counter 
-}
+function sortByHeight(array) {
 
-
+    const result = [...array].sort(function(a, b){return a - b}).filter((num) => num !== -1);
+    let Index = 0;
+    for (let i = 0; i < array.length; i++) {
+    
+    if (array[i] === -1) continue;
+    else {
+    
+    array[i] = result[Index++];
+    }
+    }
+    return array;
+    }
